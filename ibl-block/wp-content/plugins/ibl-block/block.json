@@ -1,0 +1,14 @@
+{
+	"name": "ibl-block/ibl-block",
+	"title": "Ibl-block",
+	"category": "media",
+	"icon": "smiley",
+	"description": "A block to post a different wordpress instance",
+	"textdomain": "ibl-block",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

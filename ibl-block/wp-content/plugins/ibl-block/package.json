@@ -1,0 +1,26 @@
+{
+	"name": "ibl-block",
+	"version": "0.1.0",
+	"description": "A block to post a different wordpress instance",
+	"author": "Deo",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format:js": "wp-scripts format-js",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^12.5.0"
+	},
+	"dependencies": {
+		"@wordpress/api-fetch": "^3.20.0",
+		"@wordpress/blocks": "6.24.2",
+		"@wordpress/components": "^11.1.3",
+		"install": "^0.13.0",
+		"wordpress-rest-api-oauth-2": "^0.1.1"
+	}
+}
